@@ -33,5 +33,6 @@ hr {
 .cartaocomando:hover {
     scale: 110%;
     background-color: #7a0909;
+    transform: translateY(-5%);
     color: rgb(42, 92, 136);
 }
