@@ -1,14 +1,37 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 body {
     font-family: 'Poppins', monospace;
-    background: #02040e;
-    color: #ad9528;
+    background-color: #c4b8b8;
+    color: rgb(33, 65, 94);
+    border: #998b10;
 }
-hr{
-    border: 1px solid #1522dd;
+
+hr {
+    border: 2px solid #998b10;
     margin: 20px 0px;
 
+}
+
+.grupocomandos {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 15px;
+}
+
+.cartaocomando {
+    width: calc(25% - 15px);
+    border: 2px solid #6d5e1e;
+    border-radius: 25px;
+    padding: 10px 5px;
+    transition: 150ms;
+}
+
+.cartaocomando:hover {
+    scale: 110%;
+    background-color: #7a0909;
+    color: rgb(42, 92, 136);
 }
