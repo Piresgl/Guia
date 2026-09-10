@@ -23,7 +23,7 @@ hr {
 }
 
 .cartaocomando {
-    width: calc(25% - 15px);
+    width: calc(20% - 15px);
     border: 2px solid #6d5e1e;
     border-radius: 25px;
     padding: 10px 5px;
