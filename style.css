@@ -1,17 +1,40 @@
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
 }
 
 body {
     font-family: 'Poppins', monospace;
     background-color: #c4b8b8;
-    color: rgb(33, 65, 94);
-    border: #998b10;
+    color: rgb(168, 162, 77);
+    border: rgb(36, 36, 16) solid #ebebe1;
+    FONT-SIZE: x-large;
+}
+
+main {
+    height: 80vh;
+    background-color:#946347;
+    color: rgb(168, 162, 77);
+    display: flex;
+    flex-direction: column;
+    margin-block-start: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header {
+    height: 10vh;
+    background-color: #000000;
+}
+
+footer {
+    height: 10vh;
+    background-color: #000000;
 }
 
 hr {
-    border: 2px solid #998b10;
+    border: 2px solid #848b1b;
     margin: 20px 0px;
 
 }
@@ -19,20 +42,23 @@ hr {
 .grupocomandos {
     display: flex;
     justify-content: space-between;
-    margin-inline: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .cartaocomando {
-    width: calc(20% - 15px);
+    width: calc(20% - 20px);
     border: 2px solid #6d5e1e;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 10px 5px;
     transition: 150ms;
+    background-color: #ffffff;
 }
 
 .cartaocomando:hover {
-    scale: 110%;
-    background-color: #7a0909;
+    scale: 120%;
+    background-color: #df7117;
     transform: translateY(-5%);
-    color: rgb(42, 92, 136);
+    color: rgb(0, 1, 2);
 }
