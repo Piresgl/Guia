@@ -9,7 +9,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #4d4545;
     color: rgb(3, 4, 8);
-    border: 5px solid black;
+    border: 5px solid rgb(0, 0, 0);
 
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ main h2 {
 .grupoComandos {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
 }
 
 .cartaoComando {
@@ -75,7 +75,6 @@ footer {
     text-align: center;
 }
 
-
 @media screen and (min-width: 600px) {
     body {
         font-size: x-large;
@@ -91,7 +90,6 @@ footer {
         width: calc(50% - 15px);
     }
 }
-
 
 @media screen and (min-width: 768px) {
     body {
