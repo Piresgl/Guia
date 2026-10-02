@@ -7,8 +7,8 @@
 body {
     min-height: 100vh;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #4d4545;
-    color: rgb(3, 4, 8);
+    background-color: #000000;
+    /*texto*/ color: rgb(33, 97, 20);
     border: 5px solid rgb(0, 0, 0);
 
     display: flex;
@@ -27,7 +27,7 @@ main {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    background-color: #8a8787;
+    background-color: #000000;
     flex: 1;
 }
 
@@ -51,10 +51,10 @@ main h2 {
     min-height: 15vh;
     padding: 20px;
 
-    border: 5px solid #d0d3d3;
+    border: 5px solid #dce7e7;
     border-radius: 40px;
 
-    background-color: #a3836d;
+    background-color: #297fa1;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ footer {
     min-height: 60px;
     padding: 10px;
 
-    background-color: #404044;
+    background-color: #000000;
     color: #ececec;
     text-align: center;
 }
@@ -114,4 +114,37 @@ footer {
     .cartaoComando {
         width: calc(25% - 15px);
     }
+}
+
+body.tema-claro{
+    --fundo: #f5f5f5;
+    --card: #ffffff;
+    --bordas: #cccccc;
+    --texto: #000000;
+};
+body.tema-claro .grupocomandos {
+    background: rgba(245, 245, 247, 0.85);
+}
+
+body.tema-claro .cartaocomando {
+    background: var(--card);
+}
+.btn-tema {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--borda);
+    background: var(--card);
+    color: var(--texto);
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.btn-tema::before {
+    content: "☾";
+    font-size: 1.1rem;
+}
+
+.btn-tema:hover {
+    border-color: var(--destaque);
 }
