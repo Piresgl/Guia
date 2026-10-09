@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     font-family: 'Times New Roman', Times, serif;
     background-color: #000000;
-    /*texto*/ color: rgb(33, 97, 20);
+    /*texto*/ color: rgb(150, 141, 22);
     border: 5px solid rgb(0, 0, 0);
 
     display: flex;
@@ -54,7 +54,7 @@ main h2 {
     border: 5px solid #dce7e7;
     border-radius: 40px;
 
-    background-color: #297fa1;
+    background-color: #0c2b81;
     text-align: center;
 }
 
